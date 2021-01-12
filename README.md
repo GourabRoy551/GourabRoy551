@@ -1,5 +1,8 @@
 ### Hi there 👋
  👨🏻‍💻 [Gourab Roy](https://github.com/GourabRoy551)
+ 
+ ![github stats](https://github-readme-stats.vercel.app/api?username=GourabRoy551&show_icons=true)
+
 
 <!--
 **GourabRoy551/GourabRoy551** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
