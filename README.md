@@ -2,6 +2,8 @@
  👨🏻‍💻 [Gourab Roy](https://github.com/GourabRoy551)
  
  ![github stats](https://github-readme-stats.vercel.app/api?username=GourabRoy551&show_icons=true)
+ 
+ ![visitors](https://visitor-badge.glitch.me/badge?page_id=GourabRoy551)
 
 
 <!--
