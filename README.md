@@ -6,9 +6,9 @@
 
 - 🌱 I’m currently learning **Natural Language Processing**
 
-- 👯 I’m looking to collaborate on **Natural Language Processing**
+- 👯 I’m looking to collaborate on **Machine Learning**
 
-- 🤝 I’m looking for help with **Machine Learning**
+- 🤝 I’m looking for help with **Natural Language Processing**
 
 - 👨‍💻 Visit my Portfolio Site at [Gourab_Roy](https://gourabroy551.github.io/index.html)
 
