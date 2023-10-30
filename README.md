@@ -56,5 +56,11 @@
      <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
      <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> 
 </p>
+#
 
+### 
+![image](https://github.com/GourabRoy551/GourabRoy551/assets/61312781/4413ec4e-0075-45e5-87cf-6f6e62d44d25) Stats 
+###
+
+#
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GourabRoy551&show_icons=true&theme=dracula)
