@@ -10,7 +10,7 @@
 
 - 🤝 I’m looking for help with **Machine Learning**
 
-- 👨‍💻 All of my projects are available at [https://gourabroy551.github.io/index.html](Gourab Roy)
+- 👨‍💻 All of my projects are available at [https://gourabroy551.github.io/index.html](Gourab_Roy)
 
 - 💬 Ask me about **Machine Learning, Artificial Intelligence, Deep Learning, Medical Image Processing, Data Science**
 
