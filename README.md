@@ -57,6 +57,9 @@
      <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> 
 </p>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=gourabroy551&show_icons=true&locale=en&layout=compact" alt="gourabroy551" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=gourabroy551&show_icons=true&locale=en" alt="gourabroy551" /></p>
 ### 
 👨‍💻 Stats 
 ###
