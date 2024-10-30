@@ -10,7 +10,7 @@
 
 - 🤝 I’m looking for help with **Natural Language Processing**
 
-- 👨‍💻 Visit my Portfolio Site at [Gourab_Roy](https://gourabroy551.github.io/index.html)
+- 👨‍💻 Visit my Portfolio Site at [Gourab_Roy]()
 
 - 💬 Ask me about **Machine Learning, Artificial Intelligence, Deep Learning, Medical Image Processing, Data Science**
 
