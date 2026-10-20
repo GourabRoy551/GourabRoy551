@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="CerebralNet: Deep-learning system that detects major abnormalities in brain CT and MRI scans by combining segmentation and classification.">
+<defs>
+  <linearGradient id="acerebralnetlight" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="scerebralnetlight" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+  <clipPath id="ccerebralnetlight"><rect width="560" height="300" rx="16"/></clipPath>
+</defs>
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    .shcerebralnetlight { animation: shcerebralnetlight 7s ease-in-out 5.5s infinite; }
+    .incerebralnetlight { animation: incerebralnetlight .8s cubic-bezier(.2,.7,.2,1) 0.40s both; }
+  }
+  @keyframes shcerebralnetlight { 0% { transform: translateX(-200px); } 60%,100% { transform: translateX(560px); } }
+  @keyframes incerebralnetlight { from { opacity: 0; transform: translateY(10px); } }
+</style>
+<g clip-path="url(#ccerebralnetlight)">
+  <rect width="560" height="300" fill="#FAFAFB"/>
+  <rect width="560" height="2" fill="url(#acerebralnetlight)" opacity=".55"/>
+  <rect class="shcerebralnetlight" width="200" height="2" fill="url(#scerebralnetlight)"/>
+</g>
+<rect x=".5" y=".5" width="559" height="299" rx="15.5" fill="none" stroke="#E5E7EB"/>
+<g class="incerebralnetlight">
+<text x="30.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="500" fill="#8A92A3" text-anchor="start" >06</text>
+<text x="60.0" y="46.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="url(#acerebralnetlight)" text-anchor="start"  letter-spacing="1.5">MEDICAL IMAGING · B.SC. THESIS</text>
+<text x="530.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="end" >2023</text>
+<text x="30.0" y="92.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.6">CerebralNet</text>
+<text x="30.0" y="128.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5B6476" text-anchor="start" >Deep-learning system that detects major abnormalities in</text>
+<text x="30.0" y="153.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5B6476" text-anchor="start" >brain CT and MRI scans by combining segmentation and</text>
+<text x="30.0" y="178.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5B6476" text-anchor="start" >classification.</text>
+<text x="30.0" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.3">CT + MRI</text>
+<text x="30.0" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="start" >modalities</text>
+<text x="160.6" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.3">Seg + Cls</text>
+<text x="160.6" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="start" >two-stage</text>
+<rect x="30.0" y="260" width="109.0" height="24" rx="12" fill="none" stroke="#E5E7EB"/>
+<text x="84.5" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#5B6476" text-anchor="middle" >Segmentation</text>
+<rect x="147.0" y="260" width="123.9" height="24" rx="12" fill="none" stroke="#E5E7EB"/>
+<text x="209.0" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#5B6476" text-anchor="middle" >Classification</text>
+<rect x="278.9" y="260" width="94.2" height="24" rx="12" fill="none" stroke="#E5E7EB"/>
+<text x="326.0" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#5B6476" text-anchor="middle" >Medical AI</text>
+</g></svg>

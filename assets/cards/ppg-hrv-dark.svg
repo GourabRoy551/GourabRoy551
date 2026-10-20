@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Cardiac Autonomic Assessment: Raw PPG to time- and frequency-domain HRV, testing how self-selected music shifts each subject's autonomic response.">
+<defs>
+  <linearGradient id="appg-hrvdark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="sppg-hrvdark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+  <clipPath id="cppg-hrvdark"><rect width="560" height="300" rx="16"/></clipPath>
+</defs>
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    .shppg-hrvdark { animation: shppg-hrvdark 7s ease-in-out 4.4s infinite; }
+    .inppg-hrvdark { animation: inppg-hrvdark .8s cubic-bezier(.2,.7,.2,1) 0.32s both; }
+  }
+  @keyframes shppg-hrvdark { 0% { transform: translateX(-200px); } 60%,100% { transform: translateX(560px); } }
+  @keyframes inppg-hrvdark { from { opacity: 0; transform: translateY(10px); } }
+</style>
+<g clip-path="url(#cppg-hrvdark)">
+  <rect width="560" height="300" fill="#0F1218"/>
+  <rect width="560" height="2" fill="url(#appg-hrvdark)" opacity=".55"/>
+  <rect class="shppg-hrvdark" width="200" height="2" fill="url(#sppg-hrvdark)"/>
+</g>
+<rect x=".5" y=".5" width="559" height="299" rx="15.5" fill="none" stroke="#1E2330"/>
+<g class="inppg-hrvdark">
+<text x="30.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="500" fill="#5A6275" text-anchor="start" >05</text>
+<text x="60.0" y="46.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="url(#appg-hrvdark)" text-anchor="start"  letter-spacing="1.5">BIOMEDICAL SIGNALS</text>
+<text x="530.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="400" fill="#5A6275" text-anchor="end" >2025</text>
+<text x="30.0" y="92.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.6">Cardiac Autonomic Assessment</text>
+<text x="30.0" y="128.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#8A92A6" text-anchor="start" >Raw PPG to time- and frequency-domain HRV, testing how</text>
+<text x="30.0" y="153.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#8A92A6" text-anchor="start" >self-selected music shifts each subject's autonomic response.</text>
+<text x="30.0" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.3">10</text>
+<text x="30.0" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#5A6275" text-anchor="start" >participants</text>
+<text x="134.1" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.3">3</text>
+<text x="134.1" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#5A6275" text-anchor="start" >sound conditions</text>
+<rect x="30.0" y="260" width="64.5" height="24" rx="12" fill="none" stroke="#1E2330"/>
+<text x="62.3" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#8A92A6" text-anchor="middle" >Python</text>
+<rect x="102.5" y="260" width="57.1" height="24" rx="12" fill="none" stroke="#1E2330"/>
+<text x="131.1" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#8A92A6" text-anchor="middle" >SciPy</text>
+<rect x="167.6" y="260" width="94.2" height="24" rx="12" fill="none" stroke="#1E2330"/>
+<text x="214.7" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#8A92A6" text-anchor="middle" >Statistics</text>
+</g></svg>

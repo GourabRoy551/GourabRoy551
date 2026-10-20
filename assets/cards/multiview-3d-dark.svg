@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Multi-View 3D Reconstruction: Calibration, RANSAC matching, epipolar geometry, pose estimation, sparse reconstruction and bundle adjustment.">
+<defs>
+  <linearGradient id="amultiview-3ddark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="smultiview-3ddark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+  <clipPath id="cmultiview-3ddark"><rect width="560" height="300" rx="16"/></clipPath>
+</defs>
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    .shmultiview-3ddark { animation: shmultiview-3ddark 7s ease-in-out 3.3s infinite; }
+    .inmultiview-3ddark { animation: inmultiview-3ddark .8s cubic-bezier(.2,.7,.2,1) 0.24s both; }
+  }
+  @keyframes shmultiview-3ddark { 0% { transform: translateX(-200px); } 60%,100% { transform: translateX(560px); } }
+  @keyframes inmultiview-3ddark { from { opacity: 0; transform: translateY(10px); } }
+</style>
+<g clip-path="url(#cmultiview-3ddark)">
+  <rect width="560" height="300" fill="#0F1218"/>
+  <rect width="560" height="2" fill="url(#amultiview-3ddark)" opacity=".55"/>
+  <rect class="shmultiview-3ddark" width="200" height="2" fill="url(#smultiview-3ddark)"/>
+</g>
+<rect x=".5" y=".5" width="559" height="299" rx="15.5" fill="none" stroke="#1E2330"/>
+<g class="inmultiview-3ddark">
+<text x="30.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="500" fill="#5A6275" text-anchor="start" >04</text>
+<text x="60.0" y="46.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="url(#amultiview-3ddark)" text-anchor="start"  letter-spacing="1.5">3D VISION</text>
+<text x="530.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="400" fill="#5A6275" text-anchor="end" >2026</text>
+<text x="30.0" y="92.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.6">Multi-View 3D Reconstruction</text>
+<text x="30.0" y="128.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#8A92A6" text-anchor="start" >Calibration, RANSAC matching, epipolar geometry, pose</text>
+<text x="30.0" y="153.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#8A92A6" text-anchor="start" >estimation, sparse reconstruction and bundle adjustment.</text>
+<text x="30.0" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.3">4.47 px</text>
+<text x="30.0" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#5A6275" text-anchor="start" >reprojection error</text>
+<text x="173.3" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.3">672</text>
+<text x="173.3" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#5A6275" text-anchor="start" >multi-view tracks</text>
+<rect x="30.0" y="260" width="64.5" height="24" rx="12" fill="none" stroke="#1E2330"/>
+<text x="62.3" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#8A92A6" text-anchor="middle" >MATLAB</text>
+<rect x="102.5" y="260" width="42.3" height="24" rx="12" fill="none" stroke="#1E2330"/>
+<text x="123.7" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#8A92A6" text-anchor="middle" >SfM</text>
+<rect x="152.8" y="260" width="146.1" height="24" rx="12" fill="none" stroke="#1E2330"/>
+<text x="225.9" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#8A92A6" text-anchor="middle" >Bundle adjustment</text>
+</g></svg>

@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Gourab Roy, ML researcher · Erasmus Mundus MSc in AI &amp; Computer Vision">
+<defs>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="accD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1A1F2B" stroke-width="1"/></pattern>
+  <radialGradient id="fade" cx=".78" cy=".45" r=".7"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="gridMask"><rect width="1200" height="420" fill="url(#fade)"/></mask>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="70"/></filter>
+  <clipPath id="frame"><rect width="1200" height="420" rx="20"/></clipPath>
+  <clipPath id="hm"><rect x="876" y="76" width="268" height="268" rx="10"/></clipPath>
+</defs>
+<style>
+  .rot { opacity: 0; }
+  .rot0 { opacity: 1; }
+  @media (prefers-reduced-motion: no-preference) {
+    .orb1 { animation: drift1 16s ease-in-out infinite; }
+    .orb2 { animation: drift2 19s ease-in-out infinite; }
+    .ring { transform-box: fill-box; transform-origin: center; animation: ping 2s cubic-bezier(0,0,.2,1) infinite; }
+    .rot { opacity: 0; animation: rot 14s ease-in-out infinite both; }
+    .cell { animation: pulse 3.2s ease-in-out infinite; }
+    .scan { animation: scan 4.5s linear infinite; }
+    .in { animation: up .9s cubic-bezier(.2,.7,.2,1) both; }
+  }
+  @keyframes drift1 { 50% { transform: translate(-60px, 40px); } }
+  @keyframes drift2 { 50% { transform: translate(50px, -30px); } }
+  @keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%,100% { transform: scale(3); opacity: 0; } }
+  @keyframes rot { 0% { opacity: 0; transform: translateY(10px); } 4%,21% { opacity: 1; transform: translateY(0); } 25%,100% { opacity: 0; transform: translateY(-10px); } }
+  @keyframes pulse { 50% { opacity: .3; } }
+  @keyframes scan { from { transform: translateY(-60px); } to { transform: translateY(330px); } }
+  @keyframes up { from { opacity: 0; transform: translateY(14px); } }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="420" fill="#0B0D12"/>
+  <rect width="1200" height="420" fill="url(#grid)" mask="url(#gridMask)"/>
+  <g filter="url(#blur)" opacity="0.38">
+    <circle class="orb1" cx="980" cy="90" r="170" fill="#8B5CF6"/>
+    <circle class="orb2" cx="1080" cy="360" r="150" fill="#22D3EE"/>
+  </g>
+</g>
+<rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#1E2330"/>
+<g class="in">
+  <rect x="56" y="48" width="348" height="34" rx="17" fill="#121620" stroke="#1E2330"/>
+  <circle class="ring" cx="77" cy="65" r="4" fill="#22C55E"/>
+  <circle cx="77" cy="65" r="4" fill="#22C55E"/>
+  <text x="92.0" y="70.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" fill="#E7E9EE" text-anchor="start" >Open to research internships · from Feb 2027</text>
+</g>
+<g class="in" style="animation-delay:.08s"><text x="52.0" y="172.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-2.5">Gourab Roy</text></g>
+<g class="in" style="animation-delay:.16s"><text x="56.0" y="214.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" fill="#8A92A6" text-anchor="start" >ML researcher · Erasmus Mundus MSc in AI &amp; Computer Vision</text></g>
+<g class="in" style="animation-delay:.24s"><text x="56.0" y="262.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="400" fill="#5A6275" text-anchor="start" >Focused on</text>
+  <g class="rot rot0" style="animation-delay:0.00s"><text x="174.0" y="262.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#acc)" text-anchor="start" >explainable AI for vision–language models</text></g>
+  <g class="rot" style="animation-delay:3.50s"><text x="174.0" y="262.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#acc)" text-anchor="start" >medical image analysis (CT / MRI)</text></g>
+  <g class="rot" style="animation-delay:7.00s"><text x="174.0" y="262.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#acc)" text-anchor="start" >vision transformers &amp; CLIP</text></g>
+  <g class="rot" style="animation-delay:10.50s"><text x="174.0" y="262.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#acc)" text-anchor="start" >trustworthy, reproducible deep learning</text></g>
+</g>
+<line x1="56" y1="306" x2="820" y2="306" stroke="#1E2330"/>
+<g class="in" style="animation-delay:0.32s"><text x="56.0" y="352.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.5">12</text><text x="56.0" y="378.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#8A92A6" text-anchor="start"  letter-spacing="1.4">PEER-REVIEWED PAPERS</text></g>
+<g class="in" style="animation-delay:0.39s"><text x="248.0" y="352.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.5">2 yrs</text><text x="248.0" y="378.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#8A92A6" text-anchor="start"  letter-spacing="1.4">RESEARCH ASSISTANT</text></g>
+<g class="in" style="animation-delay:0.46s"><text x="440.0" y="352.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.5">4</text><text x="440.0" y="378.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#8A92A6" text-anchor="start"  letter-spacing="1.4">UNIVERSITIES</text></g>
+<g class="in" style="animation-delay:0.53s"><text x="632.0" y="352.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#E7E9EE" text-anchor="start"  letter-spacing="-0.5">350+</text><text x="632.0" y="378.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#8A92A6" text-anchor="start"  letter-spacing="1.4">PROBLEMS SOLVED</text></g>
+<g class="in" style="animation-delay:.4s">
+<rect x="878" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<rect x="912" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<rect x="946" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.21"><rect class="cell" style="animation-delay:0.74s" x="946" y="78" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.27"><rect class="cell" style="animation-delay:0.64s" x="980" y="78" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.32"><rect class="cell" style="animation-delay:0.59s" x="1014" y="78" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.32"><rect class="cell" style="animation-delay:0.58s" x="1048" y="78" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.28"><rect class="cell" style="animation-delay:0.63s" x="1082" y="78" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="78" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.22"><rect class="cell" style="animation-delay:0.72s" x="1116" y="78" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<rect x="912" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.21"><rect class="cell" style="animation-delay:0.76s" x="912" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.29"><rect class="cell" style="animation-delay:0.61s" x="946" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.42"><rect class="cell" style="animation-delay:0.49s" x="980" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.53"><rect class="cell" style="animation-delay:0.41s" x="1014" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.54"><rect class="cell" style="animation-delay:0.40s" x="1048" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.45"><rect class="cell" style="animation-delay:0.47s" x="1082" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="112" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.32"><rect class="cell" style="animation-delay:0.59s" x="1116" y="112" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<rect x="912" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.25"><rect class="cell" style="animation-delay:0.68s" x="912" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.40"><rect class="cell" style="animation-delay:0.52s" x="946" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.61"><rect class="cell" style="animation-delay:0.36s" x="980" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.80"><rect class="cell" style="animation-delay:0.24s" x="1014" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.81"><rect class="cell" style="animation-delay:0.23s" x="1048" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.65"><rect class="cell" style="animation-delay:0.33s" x="1082" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="146" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.43"><rect class="cell" style="animation-delay:0.48s" x="1116" y="146" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.20"><rect class="cell" style="animation-delay:0.83s" x="878" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="912" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.31"><rect class="cell" style="animation-delay:0.65s" x="912" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.50"><rect class="cell" style="animation-delay:0.47s" x="946" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.76"><rect class="cell" style="animation-delay:0.29s" x="980" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.96"><rect class="cell" style="animation-delay:0.11s" x="1014" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.98"><rect class="cell" style="animation-delay:0.08s" x="1048" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.78"><rect class="cell" style="animation-delay:0.25s" x="1082" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="180" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.50"><rect class="cell" style="animation-delay:0.43s" x="1116" y="180" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.26"><rect class="cell" style="animation-delay:0.84s" x="878" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="912" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.43"><rect class="cell" style="animation-delay:0.66s" x="912" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.63"><rect class="cell" style="animation-delay:0.49s" x="946" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.80"><rect class="cell" style="animation-delay:0.32s" x="980" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.93"><rect class="cell" style="animation-delay:0.18s" x="1014" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.91"><rect class="cell" style="animation-delay:0.16s" x="1048" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.72"><rect class="cell" style="animation-delay:0.29s" x="1082" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="214" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.47"><rect class="cell" style="animation-delay:0.46s" x="1116" y="214" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.32"><rect class="cell" style="animation-delay:0.89s" x="878" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="912" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.56"><rect class="cell" style="animation-delay:0.72s" x="912" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.75"><rect class="cell" style="animation-delay:0.57s" x="946" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.76"><rect class="cell" style="animation-delay:0.43s" x="980" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.73"><rect class="cell" style="animation-delay:0.34s" x="1014" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.67"><rect class="cell" style="animation-delay:0.33s" x="1048" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.53"><rect class="cell" style="animation-delay:0.41s" x="1082" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="248" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.36"><rect class="cell" style="animation-delay:0.54s" x="1116" y="248" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.32"><rect class="cell" style="animation-delay:0.97s" x="878" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="912" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.55"><rect class="cell" style="animation-delay:0.82s" x="912" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.68"><rect class="cell" style="animation-delay:0.69s" x="946" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.61"><rect class="cell" style="animation-delay:0.58s" x="980" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.49"><rect class="cell" style="animation-delay:0.52s" x="1014" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.42"><rect class="cell" style="animation-delay:0.51s" x="1048" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.34"><rect class="cell" style="animation-delay:0.56s" x="1082" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="282" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.25"><rect class="cell" style="animation-delay:0.66s" x="1116" y="282" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="878" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.25"><rect class="cell" style="animation-delay:1.07s" x="878" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="912" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.37"><rect class="cell" style="animation-delay:0.94s" x="912" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="946" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.43"><rect class="cell" style="animation-delay:0.83s" x="946" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="980" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.37"><rect class="cell" style="animation-delay:0.74s" x="980" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1014" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.29"><rect class="cell" style="animation-delay:0.69s" x="1014" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1048" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.25"><rect class="cell" style="animation-delay:0.69s" x="1048" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1082" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g opacity="0.22"><rect class="cell" style="animation-delay:0.73s" x="1082" y="316" width="28" height="28" rx="6" fill="url(#accD)"/></g>
+<rect x="1116" y="316" width="28" height="28" rx="6" fill="#161A24"/>
+<g clip-path="url(#hm)"><rect class="scan" x="876" y="76" width="268" height="60" fill="url(#scan)"/></g>
+<text x="1144.0" y="372.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#5A6275" text-anchor="end" >attention rollout · 8×8 patches</text>
+</g>
+</svg>

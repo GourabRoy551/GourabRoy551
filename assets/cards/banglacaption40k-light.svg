@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="BanglaCaption40K: Bengali image–text retrieval benchmark on a multilingual CLIP-style model, with token-ablation and patch-perturbation explanations.">
+<defs>
+  <linearGradient id="abanglacaption40klight" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="sbanglacaption40klight" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+  <clipPath id="cbanglacaption40klight"><rect width="560" height="300" rx="16"/></clipPath>
+</defs>
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    .shbanglacaption40klight { animation: shbanglacaption40klight 7s ease-in-out 0.0s infinite; }
+    .inbanglacaption40klight { animation: inbanglacaption40klight .8s cubic-bezier(.2,.7,.2,1) 0.00s both; }
+  }
+  @keyframes shbanglacaption40klight { 0% { transform: translateX(-200px); } 60%,100% { transform: translateX(560px); } }
+  @keyframes inbanglacaption40klight { from { opacity: 0; transform: translateY(10px); } }
+</style>
+<g clip-path="url(#cbanglacaption40klight)">
+  <rect width="560" height="300" fill="#FAFAFB"/>
+  <rect width="560" height="2" fill="url(#abanglacaption40klight)" opacity=".55"/>
+  <rect class="shbanglacaption40klight" width="200" height="2" fill="url(#sbanglacaption40klight)"/>
+</g>
+<rect x=".5" y=".5" width="559" height="299" rx="15.5" fill="none" stroke="#E5E7EB"/>
+<g class="inbanglacaption40klight">
+<text x="30.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="500" fill="#8A92A3" text-anchor="start" >01</text>
+<text x="60.0" y="46.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="url(#abanglacaption40klight)" text-anchor="start"  letter-spacing="1.5">VISION–LANGUAGE · XAI</text>
+<text x="530.0" y="46.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="end" >2026</text>
+<text x="30.0" y="92.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.6">BanglaCaption40K</text>
+<text x="30.0" y="128.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5B6476" text-anchor="start" >Bengali image–text retrieval benchmark on a multilingual</text>
+<text x="30.0" y="153.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5B6476" text-anchor="start" >CLIP-style model, with token-ablation and patch-perturbation</text>
+<text x="30.0" y="178.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5B6476" text-anchor="start" >explanations.</text>
+<text x="30.0" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.3">217K</text>
+<text x="30.0" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="start" >captions</text>
+<text x="115.0" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.3">43.8K</text>
+<text x="115.0" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="start" >images</text>
+<text x="206.4" y="226.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#0B1220" text-anchor="start"  letter-spacing="-0.3">6.2→17.6</text>
+<text x="206.4" y="246.0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#8A92A3" text-anchor="start" >I→T R@1</text>
+<rect x="30.0" y="260" width="71.9" height="24" rx="12" fill="none" stroke="#E5E7EB"/>
+<text x="66.0" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#5B6476" text-anchor="middle" >PyTorch</text>
+<rect x="109.9" y="260" width="49.7" height="24" rx="12" fill="none" stroke="#E5E7EB"/>
+<text x="134.8" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#5B6476" text-anchor="middle" >CLIP</text>
+<rect x="167.6" y="260" width="42.3" height="24" rx="12" fill="none" stroke="#E5E7EB"/>
+<text x="188.8" y="276.0" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#5B6476" text-anchor="middle" >XAI</text>
+</g></svg>
